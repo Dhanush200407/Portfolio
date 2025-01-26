@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Thasadith:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Bellota:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&family=Poiret+One&family=Syne:wght@400..800&display=swap" rel="stylesheet">
+</head>
+<body >
+    
+    <header>
+        <div class="navigations" id="twen">
+            <li><a class="home" href="home.html">HOME</a></li>
+            <li><a href="education.html" class="home">SKILLS</a></li>
+        </div>
+    </header>
+
+    <main>
+        <div class="container">
+            <div class="image1">
+                <img src="/images/prof.jpg" alt="">
+            </div>
+        </div>
+        <div class="content">
+            <h1>Hi</h1>
+            <h2>I Am Dhanush</h2>
+            <h3>A Devoted Web Developer</h3>
+            <h4><a href="#aboutme">About Me <span class="icon">
+                <svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px" fill="#FFFFFF">
+                    <path d="m242-200 200-280-200-280h98l200 280-200 280h-98Zm238 0 200-280-200-280h98l200 280-200 280h-98Z"/>
+                </svg>
+            </span></a></h4>
+        </div>
+        <section class="section1" id="aboutme">
+            <div class="aboutme">
+                <h1>ABOUT ME</h1>
+                <hr class="custom-line">
+                <p>"As a dedicated web developer with 2 years of practical experience in ReactJS, I specialize in building dynamic and responsive web applications. My expertise spans full-stack development, bringing projects to fruition from front-end design to back-end architecture.Ensuring intuitive and user-friendly interfaces. Moreover, I possess strong leadership skills, having successfully led teams and made key decisions that contribute to the success of projects."</p>
+            </div>
+        </section>
+    </main>
+    <br><br><br>
+    <div class="button-container">
+        <button class="rounded-button" id="nextPageButton">Skills</button>
+      </div>
+    <footer>
+        <address>
+            <p><strong>Address:</strong>
+            21,Velan Street Raja Nagar Iravadanallur Madurai-625009</p>
+            <p><strong>Phone:</strong>
+            <a href="tel:+917550378890">(+91) 6383235908</a>
+            </p>
+            <p><strong>Email:</strong>
+            <a href="mailto:djstayin@gmail.com">sbrt1973@gmail.com</a>
+            </p>
+            <p><strong>LinkedIn:</strong>
+            <a href="https://www.linkedin.com/in/dhanush-p-97a725280?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app" target="_blank"><img src="/images/li.png" id="linker" alt="linkedin"></a>
+            </p>
+        </address>
+    </footer>
+    <script>
+        window.addEventListener("scroll", function() {
+            var aboutMeSection = document.querySelector(".aboutme");
+            var aboutMePosition = aboutMeSection.getBoundingClientRect().top;
+            var windowHeight = window.innerHeight;
+
+            if (aboutMePosition < windowHeight * 0.75) {
+                aboutMeSection.style.opacity = 1;
+                aboutMeSection.style.transform = "translateY(0)";
+            } else {
+                aboutMeSection.style.opacity = 0;
+                aboutMeSection.style.transform = "translateY(50px)";
+            }
+        });
+
+        document.getElementById('nextPageButton').addEventListener('click', function() {
+            window.location.href = 'education.html';});
+    </script>
+</body>
+</html>
