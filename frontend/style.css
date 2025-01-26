@@ -10,7 +10,7 @@ html {
   scroll-behavior: ease-out;
 }
 body{
-  background: url('/images/background.jpg');
+  background: url('/frontend/images/background.jpg');
 }
 .navigations {
   display: flex;
