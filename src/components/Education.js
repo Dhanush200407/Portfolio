@@ -18,10 +18,6 @@ import can from  "../assets/Canva-New-Logo.png";
 import sql from "../assets/mysql_PNG22.png";
 import mon from "../assets/mongo.jfif";
 import and from "../assets/and.jpeg";
-import np from "../assets/nptel.png"
-import ja from "../assets/java.jpg";
-import inter from "../assets/intern.jpg";
-import mer from "../assets/mern.jpg";
 import git from "../assets/git.png";
 import skill from "../assets/skill.png";
 import leet from "../assets/leet.png";
