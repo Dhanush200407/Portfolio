@@ -19,7 +19,6 @@ import and from "../assets/and.jpeg";
 import git from "../assets/git.png";
 import skill from "../assets/skill.png";
 import leet from "../assets/leet.png";
-import rn from "../assets/rn.jpg";
 
 
 const Education = () => {
@@ -110,10 +109,6 @@ const Education = () => {
             <div className="skill">
                 <img src={rea} alt="ReactJS"/>
                 <h3>ReactJS</h3>
-            </div>
-            <div className="skill">
-                <img src={rn} alt="ReactJS"/>
-                <h3>React Native</h3>
             </div>
             <div className="skill">
                 <img src={node} alt="NodeJS"/>
