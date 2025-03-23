@@ -3,7 +3,7 @@ import { useNavigate,Link } from "react-router-dom";
 import "../style.css";
 
 
-import profile from "../assets/prof.jpg";
+import profile from "../assets/pro.jpg";
 import linkedin from "../assets/li.png";
 
 const Home = () => {

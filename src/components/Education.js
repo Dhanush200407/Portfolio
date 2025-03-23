@@ -4,7 +4,6 @@ import "../education.css";
 
 import java from "../assets/Java_logo_icon.png";
 import linkedin from "../assets/li.png";
-import python from "../assets/Python-Logo.png";
 import cpr from "../assets/c-programming-1.png";
 import js from "../assets/javascript.jpeg";
 import ht from "../assets/htmli.jpg";
@@ -16,7 +15,6 @@ import boot from "../assets/bootstrap.jpg";
 import fig from "../assets/figma.jfif";
 import can from  "../assets/Canva-New-Logo.png";
 import sql from "../assets/mysql_PNG22.png";
-import mon from "../assets/mongo.jfif";
 import and from "../assets/and.jpeg";
 import git from "../assets/git.png";
 import skill from "../assets/skill.png";
@@ -93,10 +91,6 @@ const Education = () => {
                 <h3>Java</h3>
             </div>
             <div className="skill">
-                <img src={python} alt="Python" />
-                <h3>Python</h3>
-            </div>
-            <div className="skill">
                 <img src={cpr} alt="C"/>
                 <h3>C</h3>
             </div>
@@ -139,10 +133,6 @@ const Education = () => {
             <div className="skill">
                 <img src={sql} alt="MySQL"/>
                 <h3>MySQL</h3>
-            </div>
-            <div className="skill">
-                <img src={mon} alt="MongoDB"/>
-                <h3>MongoDB</h3>
             </div>
             <div className="skill">
                 <img src={and} alt="Android Studio"/>
