@@ -19,6 +19,7 @@ import and from "../assets/and.jpeg";
 import git from "../assets/git.png";
 import skill from "../assets/skill.png";
 import leet from "../assets/leet.png";
+import rn from "../assets/rn.jpg";
 
 
 const Education = () => {
@@ -111,6 +112,10 @@ const Education = () => {
                 <h3>ReactJS</h3>
             </div>
             <div className="skill">
+                <img src={rn} alt="ReactJS"/>
+                <h3>React Native</h3>
+            </div>
+            <div className="skill">
                 <img src={node} alt="NodeJS"/>
                 <h3>NodeJS</h3>
             </div>
@@ -171,8 +176,8 @@ const Education = () => {
         <p>BookSky is a web application that allows users to add and manage book details, which are stored in a MySQL database. The user interface is built using HTML and styled with CSS, while JavaScript is used for dynamic interactions. Users can easily view the added book information displayed on the screen. This project combines front-end and back-end technologies to create a seamless experience for managing a book collection.</p>
     </section>
     <section className="project">
-        <h2>FULL STACK</h2>
-        <p>This simple full-stack project features a login page that allows users to securely access their accounts. Built with React.js for the front end, users can track and compare their weight over time through an intuitive interface. The data is stored in a MySQL database, ensuring persistence and easy retrieval of user information. This project combines user authentication with data visualization to help users monitor their weight management journey effectively.</p>
+        <h2>Nutro Sapien – A Food Delivery App</h2>
+        <p>Nutro Sapien is a modern food delivery application developed using React Native, designed to provide a seamless and intuitive user experience across both Android and iOS platforms. With a clean and responsive interface styled using CSS, the app ensures smooth navigation and an aesthetically pleasing layout. Nutro Sapien allows users to browse a wide range of food options, place orders effortlessly, and track their deliveries in real-time. The app focuses on performance optimization, ensuring fast loading times and an engaging user experience. Its cross-platform compatibility makes it an ideal solution for users looking for a convenient and efficient food ordering service on any device.</p>
     </section>
 </div>
 
